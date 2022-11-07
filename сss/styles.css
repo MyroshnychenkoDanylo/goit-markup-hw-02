@@ -8,6 +8,7 @@
    --secondpart-logo-footer:#FFFFFF;;
    --add-color:#2196F3;
    --button-bgcolor:#2196F3;
+   --button-active-bgcolor:#188CE8;;
    --button-add-bgcolor:#F5F4FA;
    --color-button:#FFFFFF;
    --button-add-color: #212121;
@@ -160,7 +161,7 @@ text-transform: uppercase;
 }
 .button:hover,
 .button:focus {
-   background-color: var(--button-bgcolor)}
+   background-color: var(--button-active-bgcolor)}
 
 .footer{
 background-color:var(--footer-bgcolor);
