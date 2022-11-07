@@ -159,9 +159,11 @@ text-transform: uppercase;
      line-height: 1.88;
    cursor:pointer;
 }
+
 .button:hover,
 .button:focus {
-   background-color: var(--button-active-bgcolor)}
+   background-color: var(--button-active-bgcolor);
+}
 
 .footer{
 background-color:var(--footer-bgcolor);
