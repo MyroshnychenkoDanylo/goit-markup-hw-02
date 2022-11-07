@@ -155,7 +155,7 @@ text-transform: uppercase;
 }
 
 .button{
-     background-color: var(--main-bgcolor);
+     background-color: var(--button-bgcolor);
      color: var(--color-button);
      letter-spacing: 0.06em;
      font-family: Roboto, sans-serif;
