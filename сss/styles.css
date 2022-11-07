@@ -149,6 +149,11 @@ text-transform: uppercase;
    background-color: var(--main-bgcolor);
 }
 
+.button:hover,
+.button:focus {
+   background-color: var(--button-active-bgcolor);
+}
+
 .button{
      background-color: var(--button-bgcolor);
      color: var(--color-button);
@@ -160,10 +165,6 @@ text-transform: uppercase;
    cursor:pointer;
 }
 
-.button:hover,
-.button:focus {
-   background-color: var(--button-active-bgcolor);
-}
 
 .footer{
 background-color:var(--footer-bgcolor);
