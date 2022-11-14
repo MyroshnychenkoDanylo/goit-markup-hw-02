@@ -34,6 +34,8 @@
    box-sizing: inherit;
  }
 
+ 
+
 
  .list{
     list-style: none;
@@ -42,6 +44,7 @@
     background-color:var(--main-bgcolor);
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
+   margin: 0;
  }
  .hidden{
    display: none;
