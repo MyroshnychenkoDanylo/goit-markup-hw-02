@@ -41,14 +41,39 @@
  h4,
  h5, 
  h6{
-   margin: 0;
+   margin-top: 0;
+   margin-bottom: 0;
  }
 
  ul,
  ol
  {margin: 0;
- padding-left: 0;}
+ padding: 0;}
 
+ /*1230*/
+
+ .container{
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .container .firspart-logo{
+   padding-top:24px;
+   padding-bottom: 25px;
+ }
+
+ .container .site-nav{
+   padding-top: 32px;
+      padding-bottom: 32px;
+ }
+
+ .container .site-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+ }
 
  .list{
     list-style: none;
@@ -90,7 +115,7 @@
    letter-spacing: 0.02em;
    text-decoration: none;
  }
- /* Не можу зрозуміти чого не працює hover */
+ 
  .site-nav .link:hover,
  .site-nav .link:focus {
     color:var(--add-color);
@@ -111,7 +136,12 @@
 /* HERO */
 .hero{
    background: var(--hero-section-bgcolor);
-letter-spacing: 0.06em;}
+letter-spacing: 0.06em;
+text-align: center;
+margin-top: 0;
+padding-bottom: 200px;
+padding-top: 200px;
+}
 
 .hero-title{
 color: var(--hero-title-color);
@@ -120,6 +150,8 @@ font-size: 44px;
 line-height: 1.36;
 text-align: center;
 text-transform: uppercase;
+/* padding-top: 200px; */
+margin-bottom: 30px;
 }
 
 /* Section */
@@ -181,6 +213,7 @@ text-transform: uppercase;
 }
 
 .button{
+   display: inline-block;
      background-color: var(--button-bgcolor);
      color: var(--color-button);
      letter-spacing: 0.06em;
@@ -189,6 +222,11 @@ text-transform: uppercase;
      font-size: 16px;
      line-height: 1.88;
    cursor:pointer;
+   border-radius: 4px;
+   padding: 10px 32px;
+   text-align: center;
+   border: none;
+   
 }
 
 
