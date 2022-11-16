@@ -65,6 +65,10 @@
    padding-bottom: 25px;
  }
 
+ .container .nav{
+   padding-top: 24px;
+ }
+
  .container .site-nav{
    padding-top: 32px;
       padding-bottom: 32px;
@@ -315,6 +319,7 @@ letter-spacing: 0.03em;
    font-size: 16px;
    line-height: 1.63;
    cursor: pointer;
+   border-radius: 4px;
 }
 
 .button-portfolioadd{
@@ -325,6 +330,7 @@ letter-spacing: 0.03em;
    font-size: 16px;
    line-height: 1.63;
    cursor: pointer;
+   border-radius: 4px;
 }
 
 .button-portfolioadd:hover ,.button-portfolioadd:focus{
@@ -344,4 +350,21 @@ letter-spacing: 0.03em;
    font-size: 16px;
    line-height: 1.88;
 }
-   
+  
+.container .buttons{
+   padding-top: 94px;
+   margin-bottom: 50px;
+}
+
+.container .list.imgs{
+   padding-bottom: 94px;
+}
+
+.hero-portfolio .title.imgs{
+   margin-top: 20px;
+   margin-bottom: 4px;
+}
+
+.hero-portfolio .text.imgs{
+   margin-bottom: 20px;
+}
