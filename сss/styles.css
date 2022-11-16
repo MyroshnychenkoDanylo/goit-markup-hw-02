@@ -60,19 +60,55 @@
    margin-right: auto;
  }
 
+
+ 
+ .container.header {
+    display: flex;
+    align-items: center;
+ }
+
  .container .firspart-logo{
    padding-top:24px;
    padding-bottom: 25px;
  }
 
  .container .nav{
-   padding-top: 24px;
+   display: flex;
+   align-items: center;
+   
  }
 
- .container .site-nav{
-   padding-top: 32px;
-      padding-bottom: 32px;
+ .container .site-nav .link:last-child {
+    margin-right: 0;
  }
+ .container .site-nav{
+   display: flex;
+   align-items: center;
+   margin-left: 93px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+
+ .container .site-nav .link-nav{
+   display: block;
+   margin-right: 50px;
+ }
+
+ .container.header .increase{
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+
+.container .site-info{
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+}
+
+
+.site-info .item + .item{
+margin-left: 40px;
+}
 
  .container .site-info {
     padding-top: 32px;
