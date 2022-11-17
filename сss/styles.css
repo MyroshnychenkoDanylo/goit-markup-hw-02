@@ -213,14 +213,23 @@ margin-bottom: 30px;
    line-height: 1.71;
 }
 
-   .container .list.feature{
+.container .list.feature{
       padding-bottom: 94px;
       padding-top: 94px;
+      display: flex;
+      
+}
+.section .feature-text{
+    width: calc(100%-90)/4;
    }
 
-    .section .list .feature{
-      margin-top: 10px;
-    }
+.section .feature-text:not(:last-child){
+   margin-right: 30px;;
+}
+
+.section .list .feature{
+      margin-top: 10px;   
+}
 
 .section .section-title {
    font-size: 36px;
@@ -394,7 +403,14 @@ letter-spacing: 0.03em;
 
 .container .list.imgs{
    padding-bottom: 94px;
+   display: flex;
+   flex-wrap: wrap;
 }
+ 
+.list.imgs>.item{
+width: 370px;
+}
+
 
 .hero-portfolio .title.imgs{
    margin-top: 20px;
