@@ -439,6 +439,17 @@ letter-spacing: 0.03em;
    padding-inline-start: 0;
 }
  
+.border-box{
+   border-bottom: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
+   border-left: 1px solid #EEEEEE;
+}
+
+.text.imgs, 
+.title.imgs
+{padding-left: 24px;}
+
+
 .portfolio .list.buttons{
    display: flex;
    justify-content: center;
